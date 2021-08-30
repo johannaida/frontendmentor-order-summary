@@ -101,6 +101,14 @@ body,html {
     color:hsl(224, 23%, 55%);
 }
 
-
+@media screen and (max-width: 375px) {
+    .order-summary-div {width:90%;}
+    .hero {margin-bottom:20px;}
+    .summary-description {font-size:14px; font-weight:700;}
+    .order-details img {margin-left: 50px; padding-right: 15px;}
+    .summary-description {margin: 30px 45px;}
+    .link {margin-left:15px;}
+    .buttons button {width:260px;}
+}
 
 
