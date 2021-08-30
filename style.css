@@ -1,8 +1,106 @@
 body,html {
-    height:100%
+    height:100%;
+    margin: 0;
+    background-image: url("images/pattern-background-desktop.svg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: "Red Hat Display";
+
 }
-    .background-image {
-        height:100%;
-    }
+.order-summary-div {
+    margin:auto;
+    width:30%;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 50px;
+    padding-bottom:20px;
+
+
+}
+.hero {
+    width:100%;
+    border-radius: 50px 50px 0px 0px;
+
+}
+
+.summary-heading {
+    font-weight: 900;
+    text-align:center;
+    color:hsl(223, 47%, 23%);
+}
+
+.summary-description {
+    text-align: center;
+    margin: 30px 60px;
+    font-size: 16px;
+    color:hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.order-details div, img, a {
+    float:left;
+    display:inline;
+
+}
+
+.order-details img {
+    margin-left:70px;
+    padding-right:25px;
+}
+
+.order-description-heading {
+    font-size:16px;
+    margin-top:0px;
+    font-weight:900;
+    color:hsl(223, 47%, 23%);
+    margin-bottom:5px;
+}
+
+.order-description-cost {
+    margin-top:-1px;
+    color:hsl(224, 23%, 55%);
+    
+}
+
+.link {
+    margin-left:80px;
+    color:hsl(245, 75%, 52%);
+    font-weight: 700;
+    margin-top:13px;
+    font-size:14px;
+
+
+}
+.buttons {
+    display:inline-block;
+    margin:0px;
+    margin-top:20px;
+}
+.buttons button {
+    width:360px;
+    margin-left:10%;
+    padding:12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family: "Red Hat Display";
+    font-weight: bold;
+    border:none;    
+}
+
+.buttons .secondary {
+    background-color: white;
+    color:hsl(224, 23%, 55%);
+}
+
+
 
 
